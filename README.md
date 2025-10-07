@@ -11,13 +11,15 @@ It uses the Hugging Face `transformers`, `datasets`, and `evaluate` libraries wi
 ---
 
 ## 📊 Dataset
-- **Name:** [SAMSum](https://huggingface.co/datasets/samsum)  
+- **Name:** [SAMSum](https://huggingface.co/datasets/knkarthick/samsum)  
 - **Description:** A collection of ~16k English dialogues with corresponding human-written summaries.  
 - **Usage:**
   ```python
-  from datasets import load_dataset
-  dataset = load_dataset("samsum")
+from datasets import load_dataset
+
+# Login using e.g. `huggingface-cli login` to access this dataset
+ds = load_dataset("knkarthick/samsum")
 👤 Author
 
-Abhishek Dubey
+Abhishek Dubey \n
 AI/ML Engineer | Data Scientist | CV Engineer
