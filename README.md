@@ -15,11 +15,12 @@ It uses the Hugging Face `transformers`, `datasets`, and `evaluate` libraries wi
 - **Description:** A collection of ~16k English dialogues with corresponding human-written summaries.  
 - **Usage:**
   ```python
-from datasets import load_dataset
+  from datasets import load_dataset
 
-# Login using e.g. `huggingface-cli login` to access this dataset
-ds = load_dataset("knkarthick/samsum")
+  # Login using e.g. `huggingface-cli login` to access this dataset
+  ds = load_dataset("knkarthick/samsum")
+
 👤 Author
 
-Abhishek Dubey \n
-AI/ML Engineer | Data Scientist | CV Engineer
+Abhishek Dubey
+AI/ML Engineer | Data Scientist | Computer Vision Engineer
